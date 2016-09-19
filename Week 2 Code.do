@@ -148,6 +148,9 @@ graph hbox lifetime_cash
 * How many people are donating?
 tabulate donate 
 	*63.54% (125,618) of observations donated, 36.46% (72,094) did not 
+	
+*What's the average donation? 
+sum lifetime_cash, detail
 
 * How many FY15 donors vs. FY16 donors? Both/Neither?
 tabulate fy15donate fy16donate
@@ -181,9 +184,6 @@ tabulate ugrad_year is_deceased
 	*Graduating year of 1956 is the inflection point where more observations are
 	*alive than deceased
 
-*What's the average donation? 
-sum lifetime_cash, detail
-
 *Donation rate by parent year
 tabulate parent_year donate
 
@@ -208,6 +208,7 @@ tabulate bounce
 * Email opened?
 tabulate email_open
 	* 72.6% unopened, 27.4% opened
+	* 15.61 million didn't open, 5.89 million opened
 	
 tabulate email_open mobile
 	*21.5 million emails went out, 15.6 million were unopened, only 5.89 were opened 
