@@ -150,7 +150,6 @@ sum lifetime_cash
 export delimited using "/Users/palanza/Documents/BC - Big Data Econometrics/5pct Summary & Demographics.csv", replace
 
 
-
 ********************
 * Questions Answered
 ********************
@@ -168,10 +167,6 @@ tabulate mobile click
 	*2.58% of all emails were “clicked”. Of those clicked:
 		*53.2% were on desktop
 		*45.7% were on mobile
-
-
-*How Many Donations Clicked on Mobile Vs. Desktop?
-tabulate mobile click
 
 *Count contacts by campaign/email 
 tabulate campaign
